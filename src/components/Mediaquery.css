@@ -1,0 +1,47 @@
+@media screen and (max-width:768px) {
+    h1{
+        text-align: center;
+        font-size: 2.3rem;
+    }
+   .details{
+    font-size: 1rem ;
+   }
+    .container-details{
+        min-width: 300px;
+    }
+    .container-details2{
+        min-width: 300px;
+    }
+    .controls{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    input{
+        font-size:2rem;
+        padding: 10px;
+        width: 80vw;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        outline: none;
+        border-radius: 0;
+        border-top-left-radius:5px ;
+        border-top-right-radius:5px ;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    button{
+        border-radius: 0;
+        border-bottom-left-radius:5px ;
+        border-bottom-right-radius:5px ;
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+
+    .more-details{
+        font-size:0.8rem;
+    }
+
+    
+}
