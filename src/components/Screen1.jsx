@@ -1,4 +1,5 @@
 import './Screen.css'
+import './Mediaquery.css'
 export function Screen1({ weather }) {
     // Verifique se weather e suas propriedades estão disponíveis
     // if (!weather || !weather.weather || weather.weather.length === 0) {
