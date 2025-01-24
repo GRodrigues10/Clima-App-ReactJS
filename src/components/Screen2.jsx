@@ -1,4 +1,5 @@
 import './Screen.css'
+import './Mediaquery.css'
 export function Screen2({weather2}){
 
     let dailyForecast = {};
