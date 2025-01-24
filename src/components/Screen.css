@@ -16,8 +16,9 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin-bottom: 20px;
     
+    margin-bottom: 20px;
+   
   
 }
 .box{
@@ -30,6 +31,12 @@
     box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.356);
     text-transform: capitalize;
     border: 1px solid black;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+
 }
 h3{
     text-align: center;
@@ -37,6 +44,10 @@ h3{
 }
 .fiveDays{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    gap: 20px;
+
 }
 .container-details > h2{
     font-size: 1.4rem;
